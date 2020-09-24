@@ -19,7 +19,7 @@ public class GoogleHomePageTest {
 	@Test
 	public void testHomePage() {
 		driver.get("http://www.google.co.in");
-		Assert.assertEquals(driver.getTitle(), "Google1");
+		Assert.assertEquals(driver.getTitle(), "Google");
 	}
 
 	@AfterClass
