@@ -20,7 +20,7 @@ public class SampleAppPageTest {
 
 	@Test
 	public void testHomePage() {
-		driver.get("http://localhost:8000/TextBox_Wait.html");
+		driver.get("http://localhost:8000/SampleApp.html");
 		
 		WebElement btn = driver.findElement(By.id("btn"));
 		WebElement chckEmnt = driver.findElement(By.id("agree"));
