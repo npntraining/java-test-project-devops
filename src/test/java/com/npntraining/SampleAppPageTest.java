@@ -15,13 +15,12 @@ public class SampleAppPageTest {
 
 	@BeforeClass
 	public void setUpBeforeClass() {
-		System.setProperty("webdriver.gecko.driver", "e:\\selenium-jars\\geckodriver.exe");
 		driver = new FirefoxDriver();
 	}
 
 	@Test
 	public void testHomePage() {
-		driver.get("http://localhost:94/SampleApp.html");
+		driver.get("http://localhost:8000/TextBox_Wait.html");
 		
 		WebElement btn = driver.findElement(By.id("btn"));
 		WebElement chckEmnt = driver.findElement(By.id("agree"));
